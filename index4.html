@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker App</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+
+<div class="card">
+
+    <h1>💰 Expense Tracker</h1>
+
+    <p class="subtitle">
+        Track your daily expenses and manage your budget.
+    </p>
+
+    <input
+        type="text"
+        id="expenseName"
+        placeholder="Enter expense name"
+    >
+
+    <input
+        type="number"
+        id="expenseAmount"
+        placeholder="Enter expense amount"
+        min="1"
+    >
+
+    <label for="category">Category</label>
+
+    <select id="category">
+        <option>Food</option>
+        <option>Travel</option>
+        <option>Shopping</option>
+        <option>Bills</option>
+        <option>Entertainment</option>
+        <option>Health</option>
+        <option>Education</option>
+        <option>Others</option>
+    </select>
+
+    <input
+        type="date"
+        id="expenseDate"
+    >
+
+    <p id="error"></p>
+
+    <button id="addBtn">
+        Add Expense
+    </button>
+
+    <div id="expense-list"></div>
+
+    <h3 id="total">
+        Total Expense: Rs 0
+    </h3>
+
+</div>
+
+<script src="script4.js"></script>
+
+</body>
+</html>
