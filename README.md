@@ -40,7 +40,9 @@ cd expense-tracker
 
 ![Expense Tracker](./screenshots/expense.png)
 
+## 🌐 Live Demo
 
+https://expense-tracker-app-knq5.vercel.app
 
 ## 🎯 Future Improvements
 
