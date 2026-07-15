@@ -1,26 +1,26 @@
-# 💰 Expense Tracker
+#  Expense Tracker
 
 A simple and responsive Expense Tracker built using HTML, CSS, and JavaScript. It allows users to record daily expenses, categorize them, and stores all data in Local Storage so expenses remain available after refreshing the page.
 
-## ✨ Features
+##  Features
 
-- ➕ Add new expenses
-- 🗑️ Delete expenses
-- 📂 Expense categories
-- 📅 Date selection
-- 💵 Automatic total expense calculation
-- 💾 Data stored using Local Storage
-- ✅ Input validation
-- 📱 Responsive design
+-  Add new expenses
+-  Delete expenses
+-  Expense categories
+- Date selection
+- Automatic total expense calculation
+-  Data stored using Local Storage
+-  Input validation
+-  Responsive design
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript (ES6)
-- Local Storage API
 
-## 🚀 How to Run
+
+##  How to Run
 
 1. Clone the repository
 
@@ -36,21 +36,12 @@ cd expense-tracker
 
 3. Open `index.html` in your browser.
 
-## 📸 Screenshot
+##  Screenshot
 
 ![Expense Tracker](./screenshots/expense.png)
 
-## 🌐 Live Demo
+##  Live Demo
 
 https://expense-tracker-app-knq5.vercel.app
 
-## 🎯 Future Improvements
 
-- ✏️ Edit existing expenses
-- 🔍 Search and filter expenses
-- 📊 Expense charts and analytics
-- 🌙 Dark mode
-
-## 👨‍💻 Author
-
-**Samir**
